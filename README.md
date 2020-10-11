@@ -38,7 +38,7 @@ Arquitectura del API, la cual está basada en una estructura MVC, donde MC lo ma
   - Api/config => Maneja la información estática para el proyecto.
   - Api/controllers => Encargado de manejar las transacciones con el modelo(base de datos).
   - Api/database => Encargado de manejar la conexión con la base de datos.
-  - Api/dtos => Objeto de datos de transferencia, encargado de gestionar el modelo que será enviado al cliente.
+  - Api/dtos => Objeto de datos de transferencia, encargado de gestionar el modelado que será enviado al cliente.
   - Api/models => Encargado de manejar la representación de la base de datos.
   - Api/environments => Encargado de manejar datos del proceso del servidor e independizar los entornos.
   - Api/routes => Encargado de manejar rutas de servicios.
