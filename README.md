@@ -16,7 +16,7 @@ Ejecutar el proyecto en modo de desarrolo (Pruebas en entorno local):
 npm run development
 ```
 
-Ejecutar el proyecto en modo de desarrolo debugger:
+Ejecutar el proyecto en modo de desarrolo debugger (Pruebas en entorno local para depuración con vscode):
 ```bash
 npm run debugger
 ```
@@ -26,9 +26,25 @@ Ejecutar pruebas unitarias en modo de desarrollo (Pruebas en entorno local):
 npm run testDev
 ```
 
-Ejecutar pruebas unitarias en modo de producción(fb):
+Ejecutar pruebas unitarias en modo de producción(Pruebas con la base de datos de producción):
 ```bash
 npm run testPro
+```
+
+## 🐳 Docker
+Construir la imagen:
+```bash
+docker-compose build
+```
+
+Dar de alta al servicio:
+```bash
+docker-compose up
+```
+
+Dar de baja al servicio:
+```bash
+docker-compose down
 ```
 
 ## 📐 Arquitectura
