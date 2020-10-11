@@ -8,7 +8,7 @@
     "testPro": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.production\" ./node_modules/.bin/mocha",
     "development": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\"  nodemon  server.js",
     "debugger": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\"  nodemon --inspect server.js",
-    "start": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.production\" node server.js"
+    "start": "node server.js"
 
   },
   "repository": {
@@ -32,10 +32,10 @@
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^8.1.3",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "cross-env": "^7.0.2"
   },
   "dependencies": {
-    "cross-env": "^7.0.2",
     "morgan": "^1.10.0",
     "body-parser": "^1.19.0",
     "dotenv": "^8.2.0",
