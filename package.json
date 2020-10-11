@@ -5,8 +5,11 @@
   "main": "server.js",
   "scripts": {
     "testDev": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\" ./node_modules/.bin/mocha",
+    "testPro": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.production\" ./node_modules/.bin/mocha",
     "development": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\"  nodemon  server.js",
-    "debugger": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\"  nodemon --inspect server.js"
+    "debugger": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\"  nodemon --inspect server.js",
+    "start": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.production\" node server.js"
+
   },
   "repository": {
     "type": "git",

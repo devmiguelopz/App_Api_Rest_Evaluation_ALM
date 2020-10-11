@@ -1,14 +1,9 @@
 const chai = require('chai');
 const chaiHttp = require('chai-http');
 const expect = require('chai').expect;
-const dotenv = require("dotenv");
 const server = require("../server");
 const config = require("../api/config/config");
 const User = require("../api/models/user.model")
-
-dotenv.config({
-  path: process.env.PATH_ENVIRONMENT
-});
 
 chai.use(chaiHttp);
 
