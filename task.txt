@@ -1,0 +1,7 @@
+1.- Arregalr nodemor *
+2.- dEBUGGER NODEMON AND VSCODE *
+
+3.- validadores validadores*
+
+
+2.- Cambiar lofica de mtodos de conbtrolador
