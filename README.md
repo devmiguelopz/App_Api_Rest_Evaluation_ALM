@@ -1,9 +1,9 @@
-# API REST evaluation company ALM
-Evaluation API REST using (mongodb, node - express).
+# API REST evaluación para la empresa ALM
+API REST utilizando tecnologías javascript.
 
 ![screenshot](./preview.png)
 
-## Built With
+## Construido con
 - Node
 - Express
 - MongoDb
@@ -41,12 +41,12 @@ Arquitectura del API, la cual está basada en una estructura MVC, donde MC lo ma
   - Api/config => Maneja la información estática para el proyecto.
   - Api/controllers => Encargado de manejar las transacciones con el modelo(base de datos).
   - Api/database => Encargado de manejar la conexión con la base de datos.
-  - Api/dtos => Objeto de datos de transferencia, encargado de gestionar el modelo que sera enviado al cliente.
-  - Api/models => Encargado de manejar la respresentación la base de datos.
+  - Api/dtos => Objeto de datos de transferencia, encargado de gestionar el modelo que será enviado al cliente.
+  - Api/models => Encargado de manejar la representación de la base de datos.
   - Api/environments => Encargado de manejar datos del proceso del servidor e independizar los entornos.
   - Api/routes => Encargado de manejar rutas de servicios.
   - Api/utils => Encargado de manejar validaciones y cosas que no dependan de la arquitectura del proyecto.
-  - Test => Encargado de manejar pruebas unitarias y de estres.
+  - Test => Encargado de manejar pruebas unitarias y de estrés.
 
 ## Deploy
 Servicio implementado en la plataforma Heroku, añadiendo implementación continua (CI/CD) con la plataformas  de GitHub y Travis.
@@ -67,13 +67,13 @@ Servicio implementado en la plataforma Heroku, añadiendo implementación contin
 - Github: [@devmiguelopz](https://github.com/devmiguelopz)
 - Linkedin: [Miguel López](https://www.linkedin.com/in/miguel-lopez-monzon/)
 
-## 🤝 Contributing
-Contributions, issues and feature requests are welcome!
+## 🤝 Contribuciones
+¡Las contribuciones, los problemas y las solicitudes de características son bienvenidos!
 
-Feel free to check the [issues page](https://github.com/devmiguelopz/App_Api_Rest_Evaluation_ALM/issues/).
+No dudes en chequear [issues page](https://github.com/devmiguelopz/App_Api_Rest_Evaluation_ALM/issues/).
 
-## Show your support
-Give a ⭐️ if you like this project!
+## Muestra tu apoyo
+¡Dale una ⭐️ si te gusta este proyecto!
 
-## 📝 License
-This project is MIT.
+## 📝 Licencia
+MIT.
