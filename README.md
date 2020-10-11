@@ -46,28 +46,28 @@ Arquitectura del API, la cual está basada en una estructura MVC, donde MC lo ma
   - Test => Encargado de manejar pruebas unitarias y de estrés.
 
 ## 🗄 Deploy
-Servicio implementado en la plataforma Heroku, añadiendo implementación continua (CI/CD) con la plataformas  de GitHub y Travis.
+Servicio implementado en la plataforma Heroku, añadiendo implementación contínua (CI/CD) con la plataformas  de GitHub y Travis.
 
-  1.- Creación del proyecto en la plataforma de github
-  2.- Configuración del archivo .travis.yml (Este archivo permite la implementación continua (CI/CD) con GitHub)
-  3.- Creación del proyecto en la platafora heroku
-  4.- Vincular el proyecto de la plataforma heroku con github
-  5.- Subir cambios al respositorio de GitHub
-  6.- Visualizar cambios en el servicio principal de Heroku
+  - 1. Creación del proyecto en la plataforma de GitHub.
+  - 2. Configuración del archivo .travis.yml (Este archivo permite la implementación contínua (CI/CD) con GitHub).
+  - 3. Creación del proyecto en la platafora Heroku.
+  - 4. Vincular el proyecto de la plataforma Heroku con GitHub.
+  - 5. Subir cambios al respositório de GitHub.
+  - 6. Visualizar cambios en el servicio principal de Heroku.
 
 ## 📄 Proyecto
-- Sitio Web: [API REST](https://api-rest-evaluation-alm.herokuapp.com/)
+- API REST Web: [API REST](https://api-rest-evaluation-alm.herokuapp.com/)
 
 ## 👤 Author
 **Miguel López**
 
-- Github: [@devmiguelopz](https://github.com/devmiguelopz)
+- GitHub: [@devmiguelopz](https://gitHub.com/devmiguelopz)
 - Linkedin: [Miguel López](https://www.linkedin.com/in/miguel-lopez-monzon/)
 
 ## 🤝 Contribuciones
 ¡Las contribuciones, los problemas y las solicitudes de características son bienvenidos!
 
-No dudes en chequear [issues page](https://github.com/devmiguelopz/App_Api_Rest_Evaluation_ALM/issues/).
+No dudes en chequear [issues page](https://gitHub.com/devmiguelopz/App_Api_Rest_Evaluation_ALM/issues/).
 
 ## Muestra tu apoyo
 ¡Dale una ⭐️ si te gusta este proyecto!
