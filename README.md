@@ -1,14 +1,11 @@
-# API REST evaluación para la empresa ALM
-API REST utilizando tecnologías javascript.
-
 ![screenshot](./preview.png)
 
-## Construido con
+## 🏗 Construido con
 - Node
 - Express
 - MongoDb
 
-## Instalación
+## 💻 Instalación
 Ejecutar la instalación de dependencías:
 ```bash
 npm install
@@ -34,7 +31,7 @@ Ejecutar pruebas unitarias en modo de producción(fb):
 npm run testPro
 ```
 
-## Arquitectura
+## 📐 Arquitectura
 Arquitectura del API, la cual está basada en una estructura MVC, donde MC lo maneja el proyecto API REST.
 
   - server.js => Encargado de le implementar la estructura del API REST.
@@ -48,7 +45,7 @@ Arquitectura del API, la cual está basada en una estructura MVC, donde MC lo ma
   - Api/utils => Encargado de manejar validaciones y cosas que no dependan de la arquitectura del proyecto.
   - Test => Encargado de manejar pruebas unitarias y de estrés.
 
-## Deploy
+## 🗄 Deploy
 Servicio implementado en la plataforma Heroku, añadiendo implementación continua (CI/CD) con la plataformas  de GitHub y Travis.
 
   1.- Creación del proyecto en la plataforma de github
@@ -58,11 +55,11 @@ Servicio implementado en la plataforma Heroku, añadiendo implementación contin
   5.- Subir cambios al respositorio de GitHub
   6.- Visualizar cambios en el servicio principal de Heroku
 
-## Proyecto
+## 📄 Proyecto
 - Sitio Web: [API REST](https://api-rest-evaluation-alm.herokuapp.com/)
 
-## Author
-👤 **Miguel López**
+## 👤 Author
+**Miguel López**
 
 - Github: [@devmiguelopz](https://github.com/devmiguelopz)
 - Linkedin: [Miguel López](https://www.linkedin.com/in/miguel-lopez-monzon/)
