@@ -1,0 +1,238 @@
+{
+	"id": "52adb16d-7a4e-4bc1-be59-02c74a74938f",
+	"name": "API_REST_EVALUATION_ALM",
+	"timestamp": "2020-10-11T02:42:10.913Z",
+	"collection_id": "1ce35b5f-b87c-44f8-94ca-6efdfef09b5a",
+	"folder_id": "aa4e44ec-7d61-48f5-94d7-da921103154f",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "78fa58a9-9678-452a-8842-41c6ea4703cd",
+			"name": "Save user 1",
+			"url": "http://localhost:3000/api/user",
+			"time": 621,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				621
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7aea3bdc-dd04-4ee5-8815-346f187c07fb",
+			"name": "Save user 2",
+			"url": "http://localhost:3000/api/user",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "7e3a644b-0e5d-46f7-9274-03bf6bba7a41",
+			"name": "Save user 3",
+			"url": "http://localhost:3000/api/user",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6c80219a-47e0-4b3f-bf74-53f62314ac26",
+			"name": "Save user 4",
+			"url": "http://localhost:3000/api/user",
+			"time": 11,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				11
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "fd2a67ea-443e-4ec0-8fef-60e60550f993",
+			"name": "Save user 5",
+			"url": "http://localhost:3000/api/user",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6e0afd4d-f2a8-4b17-9d3f-0907d82b412e",
+			"name": "Save user 6",
+			"url": "http://localhost:3000/api/user",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2a7e5c6b-a961-45d9-91f5-bba35731b8c2",
+			"name": "Save user 7",
+			"url": "http://localhost:3000/api/user",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "4ac866c4-7e31-4f5c-91b9-ccf1fcfba377",
+			"name": "Save user 8",
+			"url": "http://localhost:3000/api/user",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "a7518581-790e-4462-9f20-c0aa57ce213e",
+			"name": "Save user 9",
+			"url": "http://localhost:3000/api/user",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				9
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bf090808-35cc-4e60-b434-b6da06209337",
+			"name": "Save user 10",
+			"url": "http://localhost:3000/api/user",
+			"time": 7,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				7
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 698,
+	"collection": {
+		"requests": [
+			{
+				"id": "78fa58a9-9678-452a-8842-41c6ea4703cd",
+				"method": "POST"
+			},
+			{
+				"id": "7aea3bdc-dd04-4ee5-8815-346f187c07fb",
+				"method": "POST"
+			},
+			{
+				"id": "7e3a644b-0e5d-46f7-9274-03bf6bba7a41",
+				"method": "POST"
+			},
+			{
+				"id": "6c80219a-47e0-4b3f-bf74-53f62314ac26",
+				"method": "POST"
+			},
+			{
+				"id": "fd2a67ea-443e-4ec0-8fef-60e60550f993",
+				"method": "POST"
+			},
+			{
+				"id": "6e0afd4d-f2a8-4b17-9d3f-0907d82b412e",
+				"method": "POST"
+			},
+			{
+				"id": "2a7e5c6b-a961-45d9-91f5-bba35731b8c2",
+				"method": "POST"
+			},
+			{
+				"id": "4ac866c4-7e31-4f5c-91b9-ccf1fcfba377",
+				"method": "POST"
+			},
+			{
+				"id": "a7518581-790e-4462-9f20-c0aa57ce213e",
+				"method": "POST"
+			},
+			{
+				"id": "bf090808-35cc-4e60-b434-b6da06209337",
+				"method": "POST"
+			}
+		]
+	}
+}
