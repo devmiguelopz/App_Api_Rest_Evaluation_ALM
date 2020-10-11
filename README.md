@@ -48,12 +48,12 @@ Arquitectura del API, la cual está basada en una estructura MVC, donde MC lo ma
 ## 🗄 Deploy
 Servicio implementado en la plataforma Heroku, añadiendo implementación contínua (CI/CD) con la plataformas  de GitHub y Travis.
 
-  - 1. Creación del proyecto en la plataforma de GitHub.
-  - 2. Configuración del archivo .travis.yml (Este archivo permite la implementación contínua (CI/CD) con GitHub).
-  - 3. Creación del proyecto en la platafora Heroku.
-  - 4. Vincular el proyecto de la plataforma Heroku con GitHub.
-  - 5. Subir cambios al respositório de GitHub.
-  - 6. Visualizar cambios en el servicio principal de Heroku.
+  - 1 Creación del proyecto en la plataforma de GitHub.
+  - 2 Configuración del archivo .travis.yml (Este archivo permite la implementación contínua (CI/CD) con GitHub).
+  - 3 Creación del proyecto en la platafora Heroku.
+  - 4 Vincular el proyecto de la plataforma Heroku con GitHub.
+  - 5 Subir cambios al respositório de GitHub.
+  - 6 Visualizar cambios en el servicio principal de Heroku.
 
 ## 📄 Proyecto
 - API REST Web: [API REST](https://api-rest-evaluation-alm.herokuapp.com/)
