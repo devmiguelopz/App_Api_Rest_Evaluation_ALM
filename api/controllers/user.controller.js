@@ -10,7 +10,6 @@ exports.userList = async (_, response) => {
       [true]: (response, userCollection) => apiResponse.successResponseWithData(response, "Operation success", new UserDtoFactory(userCollection)),
       [false]: (response) => apiResponse.successResponseWithData(response, "Operation success no data", [])
     }
-    console.info(userCollection);
     return objMapResponse[!!userCollection.length](response, userCollection);
   } catch (error) {
     return apiResponse.errorResponse(response, error.message);

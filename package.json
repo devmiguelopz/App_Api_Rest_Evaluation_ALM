@@ -4,7 +4,7 @@
   "description": "Evaluation API REST using (mongodb, node - express)",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "testDev": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\" ./node_modules/.bin/mocha",
     "development": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\"  nodemon  server.js",
     "debugger": "cross-env PATH_ENVIRONMENT=\"api/environments/.env.development\"  nodemon --inspect server.js"
   },
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/devmiguelopz/App_Api_Rest_Evaluation_ALM#readme",
   "devDependencies": {
     "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "cross-env": "^7.0.2",
     "mocha": "^8.1.3",
     "morgan": "^1.10.0",

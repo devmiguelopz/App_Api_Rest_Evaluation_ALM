@@ -49,3 +49,5 @@ server.listen(process.env.PORT, () => {
   console.info(`Server started - ${process.env.PORT}`);
 });
 // #endregion
+
+module.exports = server;
