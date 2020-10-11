@@ -1,18 +1,79 @@
 # API REST evaluation company ALM
-
 Evaluation API REST using (mongodb, node - express).
 
-## Installation
+![screenshot](./preview.png)
 
-Use the  node and npm o yarn for dependencies.
+## Built With
+- Node
+- Express
+- MongoDb
 
+## Instalación
+Ejecutar la instalación de dependencías:
 ```bash
-npm install o yarn install
+npm install
 ```
 
+Ejecutar el proyecto en modo de desarrolo (Pruebas en entorno local):
+```bash
+npm run development
+```
+
+Ejecutar el proyecto en modo de desarrolo debugger:
+```bash
+npm run debugger
+```
+
+Ejecutar pruebas unitarias en modo de desarrollo (Pruebas en entorno local):
+```bash
+npm run testDev
+```
+
+Ejecutar pruebas unitarias en modo de producción(fb):
+```bash
+npm run testPro
+```
+
+## Arquitectura
+Arquitectura del API, la cual está basada en una estructura MVC, donde MC lo maneja el proyecto API REST.
+
+  - server.js => Encargado de le implementar la estructura del API REST.
+  - Api/config => Maneja la información estática para el proyecto.
+  - Api/controllers => Encargado de manejar las transacciones con el modelo(base de datos).
+  - Api/database => Encargado de manejar la conexión con la base de datos.
+  - Api/dtos => Objeto de datos de transferencia, encargado de gestionar el modelo que sera enviado al cliente.
+  - Api/models => Encargado de manejar la respresentación la base de datos.
+  - Api/environments => Encargado de manejar datos del proceso del servidor e independizar los entornos.
+  - Api/routes => Encargado de manejar rutas de servicios.
+  - Api/utils => Encargado de manejar validaciones y cosas que no dependan de la arquitectura del proyecto.
+  - Test => Encargado de manejar pruebas unitarias y de estres.
+
+## Deploy
+Servicio implementado en la plataforma Heroku, añadiendo implementación continua (CI/CD) con la plataformas  de GitHub y Travis.
+
+  1.- Creación del proyecto en la plataforma de github
+  2.- Configuración del archivo .travis.yml (Este archivo permite la implementación continua (CI/CD) con GitHub)
+  3.- Creación del proyecto en la platafora heroku
+  4.- Vincular el proyecto de la plataforma heroku con github
+  5.- Subir cambios al respositorio de GitHub
+  6.- Visualizar cambios en el servicio principal de Heroku
+
+## Proyecto
+- Sitio Web: [API REST](https://api-rest-evaluation-alm.herokuapp.com/)
+
 ## Author
+👤 **Miguel López**
 
-Miguel López.
+- Github: [@devmiguelopz](https://github.com/devmiguelopz)
+- Linkedin: [Miguel López](https://www.linkedin.com/in/miguel-lopez-monzon/)
 
-## License
-[MIT]
+## 🤝 Contributing
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/devmiguelopz/App_Api_Rest_Evaluation_ALM/issues/).
+
+## Show your support
+Give a ⭐️ if you like this project!
+
+## 📝 License
+This project is MIT.
